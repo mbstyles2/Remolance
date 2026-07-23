@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — RemoLance</title>
+<meta name="description" content="Get in touch with RemoLance for AI data collection and workforce solutions, contributor opportunities, or partnership inquiries.">
+<link rel="icon" href="../lance.jpg">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="../index.html" class="brand">
+      <img src="../lance.jpg" alt="RemoLance logo">
+      <span>REMO<em>LANCE</em></span>
+    </a>
+    <nav class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="get-involved.html">Get Involved</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-gold">Get in Touch</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<section class="hero small">
+  <canvas id="network"></canvas>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's talk about your data.</h1>
+      <p class="lead">Whether you're scoping a project or exploring a partnership, we'd like to hear from you.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap grid grid-2">
+    <!-- FORM -->
+    <div>
+      <h2>Send a message</h2>
+      <form id="contact-form" class="form-grid">
+        <div>
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="reason">Reason for contact</label>
+          <select id="reason" name="reason" required>
+            <option value="Project inquiry">Project inquiry</option>
+            <option value="Become a contributor">Become a contributor</option>
+            <option value="Partnership">Partnership</option>
+            <option value="General question">General question</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold" style="justify-self:start;">Send Message</button>
+        <p style="font-size:0.8rem; color:var(--ink-soft);">This opens your email app with the message pre-filled to info@remolance.com.</p>
+      </form>
+    </div>
+
+    <!-- INFO -->
+    <div>
+      <h2>Contact details</h2>
+      <table class="info-table">
+        <tr><td>Company</td><td>RemoLance — Global AI Data Vendor &amp; Workforce Solutions</td></tr>
+        <tr><td>Founder &amp; CEO</td><td>Efe John</td></tr>
+        <tr><td>Phone</td><td><a href="tel:+2349025883310">+234 902 588 3310</a></td></tr>
+        <tr><td>Direct Email (CEO)</td><td><a href="mailto:johnefe137@gmail.com">johnefe137@gmail.com</a></td></tr>
+        <tr><td>General Inquiries</td><td>info@remolance.com <span style="font-size:0.8em;color:var(--ink-soft);">(activating after domain setup)</span></td></tr>
+        <tr><td>Business Partnerships</td><td>partners@remolance.com <span style="font-size:0.8em;color:var(--ink-soft);">(planned)</span></td></tr>
+        <tr><td>Website</td><td>www.remolance.com <span style="font-size:0.8em;color:var(--ink-soft);">(planned)</span></td></tr>
+        <tr><td>Headquarters</td><td>Remote — Serving Clients Worldwide</td></tr>
+      </table>
+      <p style="margin-top:1.6rem; font-size:0.9rem; font-style:italic; color:var(--ink-soft);">RemoLance operates remote-first, with ongoing updates to our digital presence as the company grows.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="margin-bottom:0.8rem;">
+          <img src="../lance.jpg" alt="RemoLance logo">
+          <span>REMO<em>LANCE</em></span>
+        </div>
+        <p style="max-width:280px; font-size:0.9rem;">Global AI data vendor and workforce solutions, connecting contributors worldwide with organizations building AI.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Get Involved</h4>
+        <a href="get-involved.html#contributors">Become a Contributor</a>
+        <a href="get-involved.html#organizations">Partner With Us</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+2349025883310">+234 902 588 3310</a>
+        <a href="mailto:info@remolance.com">info@remolance.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 RemoLance. All rights reserved.</span>
+      <span>Remote-First — Serving Clients Worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
