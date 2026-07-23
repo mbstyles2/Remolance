@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  --navy-dark: #080F19;
+  --navy-dark: #0B0F19;
   --navy: #173B63;
   --navy-soft: #24467d;
   --gold: #D4AF37;
@@ -61,6 +61,8 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   display: block;
   margin-bottom: 0.9em;
 }
+
+
 
 /* ---------- buttons ---------- */
 .btn {
@@ -120,6 +122,12 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   .nav-links { position: fixed; inset: 64px 0 0 0; background: var(--navy-dark);
     flex-direction: column; padding: 2rem 1.5rem; gap: 1.5rem; transform: translateX(100%);
     transition: transform 0.25s ease; }
+    .nav-links a{
+      color:#0B0F19;
+    }
+    .nav-links a:hover{
+      color: #D4AF37;
+    }
   .nav-links.open { transform: translateX(0); }
   .nav-cta { display: none; }
   .nav-toggle {
